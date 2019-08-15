@@ -1,9 +1,10 @@
 <template>
   <div >
-    <!--<form action="http://localhost:8081/upload" method="post" enctype="multipart/form-data">
+    <form action="http://localhost:8081/upload" method="post" enctype="multipart/form-data">
     	<input type="file" name="file" />
 			<input type="submit" class="btn-default" value="上传"/>
-		</form>-->
+		</form>
+		
 		<input type="text" id="username" name="username" />
     <input type="file"  name="file"/>
     <input type="button" class="btn btn-default" v-on:click="upload" value="上传" />
